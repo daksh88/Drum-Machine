@@ -53,24 +53,17 @@ button:active {
 }
 
 @media (max-width: 768px) {
-    .parent {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
     button {
         font-size: 5vw;
-        height: 60px;
+        height: 50px;
     }
 }
 
 @media (max-width: 576px) {
-    .parent {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
     button {
-        font-size: 7vw;
-        height: 50px;
+        font-size: 6vw;
+        height: 40px;
+        padding: 10px;
     }
 
     #display {

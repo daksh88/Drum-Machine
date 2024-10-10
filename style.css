@@ -34,12 +34,12 @@ body {
 }
 
 button {
-    padding: 20px;
-    font-size: 2vw;
+    padding: 15px;
+    font-size: 4vw;
     border-radius: 10px;
     transition: background 0.3s, box-shadow 0.3s;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    height: 80px;
+    height: 60px;
 }
 
 button:hover {
@@ -63,7 +63,7 @@ button:active {
     button {
         font-size: 6vw;
         height: 40px;
-        padding: 10px;
+        padding: 5px;
     }
 
     #display {

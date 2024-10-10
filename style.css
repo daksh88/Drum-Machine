@@ -39,6 +39,7 @@ button {
     border-radius: 10px;
     transition: background 0.3s, box-shadow 0.3s;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    height: 80px; /* Set a default height */
 }
 
 button:hover {
@@ -57,9 +58,8 @@ button:active {
     }
 
     button {
-        font-size: 4vw;
-        padding: 10px 0;
-        height: 60px;
+        font-size: 5vw; /* Make font larger for readability */
+        height: 60px; /* Set height for tablets */
     }
 }
 
@@ -69,9 +69,8 @@ button:active {
     }
 
     button {
-        font-size: 5vw;
-        padding: 10px 0;
-        height: 50px;
+        font-size: 7vw; /* Make font larger for readability */
+        height: 50px; /* Shorter height for mobile */
     }
 
     #display {
